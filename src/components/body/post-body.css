@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap:30px
+}
+
+.image {
+    width: 600px;
+    height: auto;
+}
+
+.line {
+    width: 1px;
+    height: 150px;
+    background-color: black;
+    margin: 0 20px;
+}

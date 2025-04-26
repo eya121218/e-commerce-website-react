@@ -1,0 +1,27 @@
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+.carousel {
+    margin-top: 60px;
+}
+
+.card-right-title {
+    font-size: 2rem;
+    font-weight: normal;
+    padding-top: 50px;
+    padding-left: 50px;
+    color: #d30a3e;
+}
+
+.thin-border {
+    height: 1px;
+    background-color: rgba(4, 4, 4, 0.09);
+    width: 100%;
+
+}

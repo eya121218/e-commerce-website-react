@@ -1,0 +1,38 @@
+.post-header-nav {
+    background-color: #A3092D;
+    color: white;
+    padding: 10px;
+}
+
+.post-header-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.post-header-li {
+    text-align: center;
+    width: 100%;
+}
+
+.post-header-link {
+    color: white;
+    font: bold 16px/1.5 Helvetica, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/* Responsive (less than 768px) */
+@media (min-width: 768px) {
+    .post-header-ul {
+        flex-direction: row;
+    }
+
+    .post-header-li {
+        width: auto;
+    }
+}
